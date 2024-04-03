@@ -7,6 +7,7 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.http.HttpStatus;
 
 @Data
 @AllArgsConstructor
@@ -20,4 +21,6 @@ public class Product {
     private String name;
     private  int quantity;
     private double price;
+
+
 }
